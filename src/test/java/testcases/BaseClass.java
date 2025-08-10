@@ -37,7 +37,7 @@ public class BaseClass {
 			options.addArguments("--no-sandbox"); 
 			options.addArguments("--disable-dev-shm-using") ;
 			options.addArguments("--window-size=1920,1080");
-			driver = new RemoteWebDriver(new URL("http://192.168.0.105:4444"),options);
+			driver = new RemoteWebDriver(new URL("http://172.24.176.1:4444"),options);
 		}
 		
 		else {
